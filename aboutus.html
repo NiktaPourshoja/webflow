@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>About Us</title>
+    <link rel="stylesheet" href="./public/css/main.css" />
+  </head>
+  <body>
+    <!--project  -->
+    <div class="overflow-hidden bg-[#fff] dark:bg-[#1C1E53] relative">
+      <!-- header -->
+      <header>
+        <nav
+          class="flex justify-items-stretch items-center w-full bg-[#1C1E53] dark:bg-[#101237] fixed top-0 z-40"
+        >
+          <div class="mx-4 mobile:w-[90%] tab:w-[80%]">
+            <img src="./public/images/Logo.png" alt="" />
+          </div>
+          <div
+            class="nav-links mobile:duration-500 tab:duration-0 mobile:fixed tab:static mobile:min-h-[30vh] tab:min-h-fit left-0 top-[-100%] mobile:bg-[#1C1E53] dark:mobile:bg-[#101237] mobile:bg-opacity-90 dark:mobile:bg-opacity-90 tab:bg-transparent mobile:w-full tab:w-auto flex py-2 justify-self-end pl-[20px]"
+          >
+            <ul
+              class="flex mobile:flex-col tab:flex-row w-full mobile:items-start tab:itemes-center tab:gap-2 mobile:gap-4 text-center"
+            >
+              <li>
+                <a
+                  href="./index.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-bold"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./aboutus.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 mobile:text-left tab:text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80 min-w-[88px]"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./features.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pricing.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./FAQ.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./blog.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contactUs.html"
+                  class="block tab:w-[130px] tab:ml-2 mobile:px-2 tab:py-3 tab:px-2 tab:border-2 tab:rounded-full text-[14px] text-[#fff] mobile:hover:border-b-2 ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex p-4 justify-self-end">
+            <ion-icon
+              onclick="onToggleMenu(this)"
+              name="menu"
+              class="cursor-pointer text-3xl tab:hidden text-[#fff]"
+            ></ion-icon>
+          </div>
+        </nav>
+      </header>
+      <!-- aboutUs -->
+      <div
+        class="w-full bg-[#fff] pt-[62px] flex mobile:flex-col justify-center mobile:gap-y-[20px] dark:bg-[#1C1E53] dark:text-[#fff] tab:flex-row my-[20px]"
+      >
+        <div
+          class="w-[60%] w-full px-4 tab:max-w-[400px] mx-auto text-[#282938] dark:text-[#fff] h-full"
+        >
+          <h5 class="text-[20px] font-medium">About Us</h5>
+          <h4 class="font-bold leading-[40px] text-[43px]">
+            Our designs solve problems
+          </h4>
+          <p class="opacity-50 mt-[10px] text-[15px] leading-[22px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="w-[40%] mx-auto min-w-[278px] mx-auto">
+          <img
+            src="./public/images/ab1.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- WhoWeAre -->
+      <div
+        class="w-full max-w-[1200px] flex flex-col bg-[#F4F5F5] dark:bg-[#101237] dark:text-[#fff] mx-auto"
+      >
+        <div
+          class="flex mobile:flex-col tab:flex-row w-full py-[40px] mb-[40px]"
+        >
+          <div
+            class="w-[50%] w-[300px] tab:max-w-[400px] mx-auto text-[#282938] dark:text-[#fff] h-full"
+          >
+            <h5 class="text-[17px] font-normal">Who we are</h5>
+            <h4 class="font-medium leading-[40px] mobile:text-[30px] tab:text-[40px] min-w-[270px]">
+              Goal focussed
+            </h4>
+            <p class="opacity-50 mt-[10px] text-[15px] leading-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div
+            class="w-[50%] w-[300px] tab:max-w-[400px] mx-auto text-[#282938] dark:text-[#fff] h-full pt-[35px]"
+          >
+            <h4
+              class="font-medium leading-[45px] mobile:text-[30px] tab:text-[40px] tab:min-w-[500px]"
+            >
+              Continuous improvement
+            </h4>
+            <p
+              class="opacity-50 mt-[10px] text-[15px] dark:text-[#fff] leading-[22px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="">
+          <img
+            src="./public/images/ab2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- process -->
+      <div class="f-full flex flex-col justify-center my-[30px]">
+        <h2
+          class="text-[30px] font-bold text-[#282938] dark:text-[#fff] w-full text-center"
+        >
+          The process we follow
+        </h2>
+
+        <div
+          class="flex flex-row text-[#282938] mt-[30px] dark:text-[#fff] flex-wrap gap-[20px] mx-auto"
+        >
+          <div class="mx-auto flex mobile:flex-col tab:flex-row gap-[20px]">
+            <div class="flex flex-col mx-auto w-[200px]">
+              <div class="h-[26px] gap-x-[10px] flex flex-row">
+                <div class="w-[25px] h-[25px] bg-[#2405F2] rounded-full"></div>
+                <div
+                  class="h-[13px] w-[150px] border-b-2 border-dashed dark:border-[#fff] border-[#282938]"
+                ></div>
+              </div>
+              <h5 class="w-full text-[20px] font-medium pl-[10px]">Planning</h5>
+              <p class="w-full text-[13px] opacity-50 pl-[10px]">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+            <div class="flex flex-col mx-auto w-[200px]">
+              <div class="h-[26px] gap-x-[10px] flex flex-row">
+                <div class="w-[25px] h-[25px] bg-[#2405F2] rounded-full"></div>
+                <div
+                  class="h-[13px] w-[150px] border-b-2 border-dashed dark:border-[#fff] border-[#282938]"
+                ></div>
+              </div>
+              <h5 class="w-full text-[20px] font-medium pl-[10px]">
+                Conception
+              </h5>
+              <p class="w-full text-[13px] opacity-50 pl-[10px]">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+          </div>
+          <div class="mx-auto flex mobile:flex-col tab:flex-row gap-[20px]">
+            <div class="flex flex-col mx-auto w-[200px]">
+              <div class="h-[26px] gap-x-[10px] flex flex-row">
+                <div class="w-[25px] h-[25px] bg-[#2405F2] rounded-full"></div>
+                <div
+                  class="h-[13px] w-[150px] border-b-2 border-dashed dark:border-[#fff] border-[#282938]"
+                ></div>
+              </div>
+              <h5 class="w-full text-[20px] font-medium pl-[10px]">Design</h5>
+              <p class="w-full text-[13px] opacity-50 pl-[10px]">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+            <div class="flex flex-col mx-auto w-[200px]">
+              <div class="h-[26px] gap-x-[10px] flex flex-row">
+                <div class="w-[25px] h-[25px] bg-[#2405F2] rounded-full"></div>
+                <div
+                  class="h-[13px] w-[150px] border-b-2 border-dashed dark:border-[#fff] border-[#282938]"
+                ></div>
+              </div>
+              <h5 class="w-full text-[20px] font-medium pl-[10px]">
+                Development
+              </h5>
+              <p class="w-full text-[13px] opacity-50 pl-[10px]">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+            </div>
+        </div>
+      </div>
+      <!-- ourmission ourvision -->
+      <div
+        class="w-full max-w-[1200px] flex flex-col bg-[#EEF4FA] dark:bg-[#101237] mx-auto"
+      >
+        <div
+          class="w-full flex mobile:flex-col mobile:gap-y-[20px] tab:flex-row my-[20px]"
+        >
+          <div
+            class="w-[60%] max-w-[400px] m-auto text-[#282938] dark:text-[#fff] h-full"
+          >
+            <h5 class="text-[15px] font-normal">Our Mission</h5>
+            <h4 class="font-semibold leading-[40px] mobile:text-[30px] tab:text-[33px]">
+              Inspire, Innovate, Share
+            </h4>
+            <p class="opacity-50 mt-[10px] mobile:text-[12px] tab:text-[15px] mobile:leading-[18px] tab:leading-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="w-[40%] mx-auto min-w-[278px] max-w-[400px]">
+            <img
+              src="./public/images/ab3.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="w-full flex mobile:flex-col mobile:gap-y-[20px] tab:flex-row my-[20px]"
+        >
+          <div class="w-[40%] mx-auto min-w-[278px] max-w-[400px]">
+            <img
+              src="./public/images/ab4.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-[60%] max-w-[400px] m-auto text-[#282938] dark:text-[#fff] h-full"
+          >
+            <h5 class="text-[15px] font-normal">Our Vision</h5>
+            <h4 class="font-semibold leading-[40px] mobile:text-[30px] tab:text-[33px]">
+              Laser focus
+            </h4>
+            <p class="opacity-50 mt-[10px] mobile:text-[12px] tab:text-[15px] mobile:leading-[18px] tab:leading-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- benefits -->
+      <div
+        class=" flex flex-col justify-center dark:text-[#fff] my-[50px] py-[20px] "
+      >
+        <h2
+          class="text-center  w-fit mx-auto font-bold text-[34px] dark:text-[#fff] text-[#282938]"
+        >
+          The benefits of working with us
+        </h2>
+        <div
+          class="flex w-fit desk:flex-row mobile:flex-col text-[#2b2b2b] dark:text-[#fff] mx-auto gap-[20px] max-w-[1200px] justify-center mt-[20px] "
+        >
+          <div
+            class="bg-[#ffff] dark:bg-[#101237] mx-auto flex flex-col transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 gap-y-[10px] items-start w-[350px] px-[20px] h-[300px] text-left bg-[#EEF4FA] py-[50px]"
+          >
+            <img
+              class="w-[32px]"
+              src="./public/images/icons/icon4.svg"
+              alt=""
+            />
+            <h4 class="text-[22px] font-medium">Customize Ease</h4>
+            <p class="text-[15px]">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+          <div
+            class="bg-[#ffff] dark:bg-[#101237] mx-auto flex flex-col transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 gap-y-[10px] items-start w-[350px] px-[20px] h-[300px] text-left bg-[#EEF4FA] py-[50px]"
+          >
+            <img
+              class="w-[32px]"
+              src="./public/images/icons/icon2.svg"
+              alt=""
+            />
+            <h4 class="text-[22px] font-medium">Perfectly Responsive</h4>
+            <p class="text-[15px]">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+          <div
+            class="bg-[#ffff] dark:bg-[#101237] mx-auto flex flex-col transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 gap-y-[10px] items-start w-[350px] px-[20px] h-[300px] text-left bg-[#EEF4FA] py-[50px]"
+          >
+            <img
+              class="w-[32px]"
+              src="./public/images/icons/icon1.svg"
+              alt=""
+            />
+            <h4 class="text-[22px] font-medium">friendly Support</h4>
+            <p class="text-[15px]">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex w-full tab:flex-row mobile:flex-col text-[#2b2b2b] p-[30px] mx-auto max-w-[1200px] dark:bg-[#FCD980] justify-center mt-[20px]"
+        >
+          <div class="w-fit mobile:pl-[10px]  flex flex-col mobile:mx-auto tab:mx-0">
+            <h5 class="font-bold opacity-80 dark:text-[#2b2b2b] text-[30px]">
+              100.000+
+            </h5>
+            <p
+              class="text-[12px] pl-[5px] font-semibold dark:text-[#2b2b2b] opacity-80"
+            >
+              Finsweet Users
+            </p>
+          </div>
+          <div class="flex mobile:flex-col w-full justify-center  tab:flex-row gap-[25px]">
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo6.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo4.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo3.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo2.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- OurTeam -->
+      <div
+        class="w-full flex flex-col justify-center bg-[#EEF4FA] dark:bg-[#1C1E53] mx-auto text-[#282938] dark:text-[#fff] pt-[70px] gap-y-[20px]"
+      >
+        <h4 class="font-bold text-[30px] w-full text-center">Meet our team</h4>
+        <div
+          class="flex flex-row flex-wrap mb-[40px] mx-auto my-[20px] gap-[30px]"
+        >
+          <div class="flex mobile:flex-col tab:flex-row gap-[30px] mx-auto">
+            <div
+              class="w-[220px] dark:bg-[#101237] flex flex-col justify-center text-center bg-[#fff] gap-y-[5px] rounded-[8px]"
+            >
+              <div
+                class="rounded-full group my-[15px] mx-auto relative overflow-hidden"
+              >
+                <img
+                  class="w-[120px]"
+                  src="./public/images/smith.png"
+                  alt=""
+                />
+                <div
+                  class="w-[120px] h-[110px] absolute top-10 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 duration-300 opacity-0 group-hover:opacity-100 rounded-full z-10 flex itemes-center"
+                >
+                  <div
+                    class="flex itemes-center opacity-100 flex-row justify-center w-full mx-auto gap-x-[10px] m-auto"
+                  >
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_insta.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_twitter.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_facebook.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="w-[120px] absolute top-0 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 opacity-0 group-hover:opacity-50 bg-gradient-to-b from-neutral-400 to-blue-900 rounded-full h-[120px] flex items-end"
+                ></div>
+              </div>
+              <h5 class="text-[22px] opacity-90 font-semibold">John Smith</h5>
+              <p class="mb-[40px] text-[12px] opacity-80 font-medium">CEO</p>
+            </div>
+            <div
+              class="w-[220px] dark:bg-[#101237] flex flex-col justify-center text-center bg-[#fff] gap-y-[5px] rounded-[8px]"
+            >
+              <div
+                class="rounded-full group my-[15px] mx-auto relative overflow-hidden"
+              >
+                <img
+                  class="w-[120px]"
+                  src="./public/images/simon.png"
+                  alt=""
+                />
+                <div
+                  class="w-[120px] h-[110px] absolute top-10 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 duration-300 opacity-0 group-hover:opacity-100 rounded-full z-10 flex itemes-center"
+                >
+                  <div
+                    class="flex itemes-center opacity-100 flex-row justify-center w-full mx-auto gap-x-[10px] m-auto"
+                  >
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_facebook.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_twitter.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_insta.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="w-[120px] absolute top-0 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 opacity-0 group-hover:opacity-50 bg-gradient-to-b from-neutral-400 to-blue-900 rounded-full h-[120px] flex items-end"
+                ></div>
+              </div>
+              <h5 class="text-[22px] opacity-90 font-semibold">Simon Adams</h5>
+              <p class="mb-[40px] text-[12px] opacity-80 font-medium">CTO</p>
+            </div>
+          </div>
+          <div class="flex mobile:flex-col tab:flex-row gap-[30px] mx-auto">
+            <div
+              class="w-[220px] dark:bg-[#101237] flex flex-col justify-center text-center bg-[#fff] gap-y-[5px] rounded-[8px]"
+            >
+              <div
+                class="rounded-full group my-[15px] mx-auto relative overflow-hidden"
+              >
+                <img
+                  class="w-[120px]"
+                  src="./public/images/paul.png"
+                  alt=""
+                />
+                <div
+                  class="w-[120px] h-[110px] absolute top-10 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 duration-300 opacity-0 group-hover:opacity-100 rounded-full z-10 flex itemes-center"
+                >
+                  <div
+                    class="flex itemes-center opacity-100 flex-row justify-center w-full mx-auto gap-x-[10px] m-auto"
+                  >
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_twitter.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_insta.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_facebook.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="w-[120px] absolute top-0 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 opacity-0 group-hover:opacity-50 bg-gradient-to-b from-neutral-400 to-blue-900 rounded-full h-[120px] flex items-end"
+                ></div>
+              </div>
+              <h5 class="text-[22px] opacity-90 font-semibold">Paul Jones</h5>
+              <p class="mb-[40px] text-[12px] opacity-80 font-medium">
+                Design lead
+              </p>
+            </div>
+            <div
+              class="w-[220px] dark:bg-[#101237] flex flex-col justify-center text-center bg-[#fff] gap-y-[5px] rounded-[8px]"
+            >
+              <div
+                class="rounded-full group my-[15px] mx-auto relative overflow-hidden"
+              >
+                <img
+                  class="w-[120px]"
+                  src="./public/images/sara.png"
+                  alt=""
+                />
+                <div
+                  class="w-[120px] h-[110px] absolute top-10 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 duration-300 opacity-0 group-hover:opacity-100 rounded-full z-10 flex itemes-center"
+                >
+                  <div
+                    class="flex itemes-center opacity-100 flex-row justify-center w-full mx-auto gap-x-[10px] m-auto"
+                  >
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_twitter.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_facebook.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-[15px] h-[15px] mb-[5px]"
+                      src="./public/images/sm_insta.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="w-[120px] absolute top-0 transition ease-in-out delay-150 group-hover:-translate-y-1 group-hover:scale-110 opacity-0 group-hover:opacity-50 bg-gradient-to-b from-neutral-400 to-blue-900 rounded-full h-[120px] flex items-end"
+                ></div>
+              </div>
+              <h5 class="text-[22px] opacity-90 font-semibold">Sara Hardin</h5>
+              <p class="mb-[40px] text-[12px] opacity-80 font-medium">
+                Project Manager
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div
+        class="w-full flex h-auto flex-wrap mt-[30px] bg-[#1C1E53] dark:bg-[#101237] justify-center px-[30px] mb-[10px] pb-[30px]"
+      >
+        <div class="tab:w-[40%] mobile:w-full h-auto mx-auto p-5">
+          <div class="w-full mt-[40px]">
+            <img src="./public/images/Logo.png" alt="" />
+          </div>
+          <div class="w-full mt-[20px] text-[#fff] text-[15px]">
+            <p class="max-w-[380px] w-full">
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+          </div>
+          <div
+            class="w-[80%] mobile:w-auto mobile:max-w-[350px] tab:min-w-[400px] bg-[#FCD980] mx-auto flex justify-left text-left tab:flex-row mobile:flex-col h-auto p-[10px] tab:p-[10px] mt-[20px] mobile:ml-[0px] rounded-[9px] gap-x-[10px] gap-y-[10px]"
+          >
+            <div
+              class="tab:w-[48%] flex flex-col mobile:w-full pl-[10px] text-[#282938]"
+            >
+              <h4 class="font-medium text-[16px]">Email me at</h4>
+              <p class="block">contact@website.com</p>
+            </div>
+            <div
+              class="tab:w-[43%] flex flex-col mobile:w-full pl-[10px] text-[#282938]"
+            >
+              <h4 class="font-medium text-[16px]">Call us</h4>
+              <p class="block">0927 6277 28525</p>
+            </div>
+          </div>
+        </div>
+        <div class="mobile:w-full tab:w-[40%] h-auto mx-auto text-[#fff]">
+          <h2 class="w-full pl-[20px] text-[28px] tab:mt-[50px] font-medium">
+            Lets Talk!
+          </h2>
+          <p class="max-w-[400px] w-full opacity-50 pl-[20px] text-[13px]">
+            We are always open to discuss your project, improve your online
+            presence and help with your UX/UI design challenges.
+          </p>
+          <div
+            class="flex flex-row flex-nowrap gap-x-[20px] pl-[20px] mt-[10px]"
+          >
+            <img src="./public/images/sm_facebook.png" alt="" />
+            <img src="./public/images/sm_in.png" alt="" />
+            <img src="./public/images/sm_twitter.png" alt="" />
+            <img src="./public/images/sm_insta.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full bg-[#fff] dark:bg-[#1C1E53] flex jestify-start text-[#282938] dark:text-[#fff]"
+      >
+        <nav
+          class="flex flex-row tab:gap-x-5 mobile:gap-x-3 w-full box-border justify-end pr-[20px] tab:leading-[28px] font-medium text-center"
+        >
+          <a
+            href="./index.html"
+            class="block h-7 w-fit items-center hover:border-b-2 hover:border-[#BBBBCB] tab:text-sm mobile:text-[13px]"
+            >Home</a
+          >
+          <a
+            href="./aboutus.html"
+            class="block h-7 min-w-fit hover:border-b-2 text-center tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >About us</a
+          >
+          <a
+            href="./features.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Features</a
+          >
+          <a
+            href="./pricing.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Pricing</a
+          >
+          <a
+            href="./FAQ.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >FAQ</a
+          >
+          <a
+            href="./blog.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Blog</a
+          >
+        </nav>
+      </div>
+      <!--end footer -->
+      <!-- darkmod -->
+      <button
+        class="btn w-[200px] text-[#fff] w-[80px] bg-[#454545] fixed top-80"
+      > <img src="./public/images/dark mode button.png" alt="">
+      </button>
+    </div>
+    <!--end project  -->
+    <!--icon script  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- end icon script -->
+    <!-- menu script -->
+    <script>
+      const navLinks = document.querySelector(".nav-links");
+      function onToggleMenu(e) {
+        e.name = e.name === "menu" ? "close" : "menu";
+        navLinks.classList.toggle("top-[60px]");
+      }
+    </script>
+    <!--end menu script -->
+    <script>
+      let btn = document.querySelector(".btn");
+      btn.addEventListener("click", function () {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+  </head>
+
+  <body>
+    <!--project -->
+    <!-- wrapper -->
+    <div
+      class="overflow-hidden bg-[#fff] dark:bg-[#1C1E53] relative normal-case"
+    >
+      <!-- header -->
+      <header>
+        <nav
+          class="flex justify-items-stretch items-center w-full bg-[#1C1E53] dark:bg-[#101237] fixed top-0 z-40"
+        >
+          <div class="mx-4 mobile:w-[90%] tab:w-[80%]">
+            <img src="./public/images/Logo.png" alt="" />
+          </div>
+          <div
+            class="nav-links mobile:duration-500 tab:duration-0 mobile:fixed tab:static mobile:min-h-[30vh] tab:min-h-fit left-0 top-[-100%] mobile:bg-[#1C1E53] dark:mobile:bg-[#101237] mobile:bg-opacity-90 dark:mobile:bg-opacity-90 tab:bg-transparent mobile:w-full tab:w-auto flex py-2 justify-self-end pl-[20px]"
+          >
+            <ul
+              class="flex mobile:flex-col tab:flex-row w-full mobile:items-start tab:itemes-center tab:gap-2 mobile:gap-4 text-center"
+            >
+              <li>
+                <a
+                  href="./index.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-bold"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./aboutus.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 mobile:text-left tab:text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80 min-w-[88px]"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./features.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pricing.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./FAQ.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./blog.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contactUs.html"
+                  class="block tab:w-[130px] tab:ml-2 mobile:px-2 tab:py-3 tab:px-2 tab:border-2 tab:rounded-full text-[14px] text-[#fff] mobile:hover:border-b-2 ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex p-4 justify-self-end">
+            <ion-icon
+              onclick="onToggleMenu(this)"
+              name="menu"
+              class="cursor-pointer text-3xl tab:hidden text-[#fff]"
+            ></ion-icon>
+          </div>
+        </nav>
+      </header>
+      <!-- end header -->  
+
+      <div
+        class="w-full flex flex-col pt-[62px] text-center text-[#282938] dark:text-[#fff] my-[80px]"
+      >
+        <h2 class="w-fit mx-auto text-[48px] leading-[40px] font-semibold">
+          Our Pricing Plans
+        </h2>
+        <p class="w-fit mx-auto max-w-[550px] text-[14px] p-4 opacity-70 my-[20px]">
+          When you’re ready to go beyond prototyping in Figma, Webflow is ready
+          to help you bring your designs to life — without coding them.
+        </p>
+
+        <div
+          class="w-full p-x-4 flex justify-center mobile:flex-col tab:flex-row gap-[20px]"
+        >
+          <div
+            class="mobile:w-[350px] tab:w-[400px] px-[20px] py-[30px] bg-[#EEF4FA] hover:bg-[#1C1E53] dark:bg-[#1C1E53] dark:hover:bg-[#EEF4FA] transition ease-in-out delay-150 hover:-translate-y-1 group-hover:scale-110 duration-300 rounded-[6px] text-[#282938] dark:text-[#fff] hover:text-[#fff] dark:hover:text-[#282938] flex flex-col group text-left border-2 mobile:mx-auto tab:mx-0"
+          >
+            <div class="flex flex-row leading-[56px] gap-x-[10px]">
+              <h3 class="font-semibold text-[38px]">$299</h3>
+              <p
+                class="font-medium text-[15px] text-[#2405F2] group-hover:text-[#FCD980]"
+              >
+                Per Design
+              </p>
+            </div>
+            <h3 class="mt-[20px] text-[24px] leading-[36px] font-medium">
+              Landing Page
+            </h3>
+            <p class="text-[15px] leading-[25px] opacity-70 max-w-[270px]">
+              When you’re ready to go beyond prototyping in Figma,
+            </p>
+            <div
+              class="flex flex-col mobile:mt-[40px] tab:mt-[90px] gap-y-[10px]"
+            >
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">All limited links</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">
+                  Own analytic platform
+                </h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Chat support</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Optimize hashtags</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Unlimited users</h5>
+              </div>
+            </div>
+            <a
+              href=""
+              class="block w-[254px] mx-auto bg-[#2b2b2b] text-[#fff] group-hover:bg-[#FCD980] group-hover:text-[#2b2b2b] text-center mobile:mt-[50px] tab:mt-[100px] rounded-[25px] mobile:mb-[20px] tab:mb-[50px] py-[15px]"
+              >Get started</a
+            >
+          </div>
+          <div
+            class="mobile:w-[350px] tab:w-[400px] px-[20px] py-[30px] bg-[#EEF4FA] hover:bg-[#1C1E53] dark:bg-[#1C1E53] dark:hover:bg-[#EEF4FA] transition ease-in-out delay-150 hover:-translate-y-1 group-hover:scale-110 duration-300 rounded-[6px] text-[#282938] dark:text-[#fff] hover:text-[#fff] dark:hover:text-[#282938] flex flex-col group text-left border-2 mobile:mx-auto tab:mx-0"
+          >
+            <div class="flex flex-row leading-[56px] gap-x-[10px]">
+              <h3 class="font-semibold text-[38px]">$399</h3>
+              <p
+                class="font-medium text-[15px] text-[#2405F2] group-hover:text-[#FCD980]"
+              >
+                Multi Design
+              </p>
+            </div>
+            <h3 class="mt-[20px] text-[24px] leading-[36px] font-medium">
+              Landing Page
+            </h3>
+            <p class="text-[15px] leading-[25px] opacity-70 max-w-[270px]">
+              When you’re ready to go beyond prototyping in Figma,
+            </p>
+            <div
+              class="flex flex-col mobile:mt-[40px] tab:mt-[90px] gap-y-[10px]"
+            >
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">All limited links</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">
+                  Own analytic platform
+                </h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Chat support</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Optimize hashtags</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Unlimited users</h5>
+              </div>
+            </div>
+            <a
+              href=""
+              class="block w-[254px] mx-auto bg-[#2b2b2b] text-[#fff] group-hover:bg-[#FCD980] group-hover:text-[#2b2b2b] text-center mobile:mt-[50px] tab:mt-[100px] rounded-[25px] mobile:mb-[20px] tab:mb-[50px] py-[15px]"
+              >Get started</a
+            >
+          </div>
+          <div
+            class="mobile:w-[350px] tab:w-[400px] px-[20px] py-[30px] bg-[#EEF4FA] hover:bg-[#1C1E53] dark:bg-[#1C1E53] dark:hover:bg-[#EEF4FA] transition ease-in-out delay-150 hover:-translate-y-1 group-hover:scale-110 duration-300 rounded-[6px] text-[#282938] dark:text-[#fff] hover:text-[#fff] dark:hover:text-[#282938] flex flex-col group text-left border-2 mobile:mx-auto tab:mx-0"
+          >
+            <div class="flex flex-row leading-[56px] gap-x-[10px]">
+              <h3 class="font-semibold text-[38px]">$299</h3>
+              <p
+                class="font-medium text-[15px] text-[#2405F2] group-hover:text-[#FCD980]"
+              >
+                Per Design
+              </p>
+            </div>
+            <h3 class="mt-[20px] text-[24px] leading-[36px] font-medium">
+              Landing Page
+            </h3>
+            <p class="text-[15px] leading-[25px] opacity-70 max-w-[270px]">
+              When you’re ready to go beyond prototyping in Figma,
+            </p>
+            <div
+              class="flex flex-col mobile:mt-[40px] tab:mt-[90px] gap-y-[10px]"
+            >
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">All limited links</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">
+                  Own analytic platform
+                </h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Chat support</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Optimize hashtags</h5>
+              </div>
+              <div class="flex flex-row gap-x-[18px]">
+                <img src="./public/images/Pointer.png" alt="" />
+                <h5 class="text-[13px] leading-[20px]">Unlimited users</h5>
+              </div>
+            </div>
+            <a
+              href=""
+              class="block w-[254px] mx-auto bg-[#2b2b2b] text-[#fff] group-hover:bg-[#FCD980] group-hover:text-[#2b2b2b] text-center mobile:mt-[50px] tab:mt-[100px] rounded-[25px] mobile:mb-[20px] tab:mb-[50px] py-[15px]"
+              >Get started</a
+            >
+          </div>
+          
+        </div>
+      </div>
+      <!-- fAQ -->
+      <div
+        class="w-full flex mobile:flex-col overflow-hidden tab:flex-row bg-[#ffff] dark:bg-[#1C1E53] tab:itemes-center gap-[20px] mt-[50px] mb-[100px]"
+      >
+        <div
+          class="w-[20%] m-[20px] gap-x-[15px] mobile:mx-[30px] tab:mx-auto min-w-[300px]"
+        >
+          <h3
+            class="text-[38px] w-fit text-[#282938] dark:text-[#fff] font-medium leading-[56px]"
+          >
+            Frequently asked questions
+          </h3>
+          <p class="text-[15px] mt-[20px] text-[#2405F2]">
+            Contact us for more info
+          </p>
+        </div>
+        <div
+          class="max-w-lg tab:mx-auto overflow-hidden flex flex-col tab:gap-y-[5px]"
+        >
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >1</span
+              >How much time does it take?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >2</span
+              >What is your class naming convention?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >3</span
+              >How do you communicat?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >4</span
+              >I have a bigger project can you handel it?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >5</span
+              >
+              What is your class naming convection?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end fAQ -->
+
+      <!-- footer -->
+      <div
+        class="w-full flex h-auto flex-wrap mt-[30px] bg-[#1C1E53] dark:bg-[#101237] justify-center px-[30px] mb-[10px] pb-[30px]"
+      >
+        <div class="tab:w-[40%] mobile:w-full h-auto mx-auto p-5">
+          <div class="w-full mt-[40px]">
+            <img src="./public/images/Logo.png" alt="" />
+          </div>
+          <div class="w-full mt-[20px] text-[#fff] text-[15px]">
+            <p class="max-w-[380px] w-full">
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+          </div>
+          <div
+            class="w-[80%] mobile:w-auto mobile:max-w-[350px] tab:min-w-[400px] bg-[#FCD980] mx-auto flex justify-left text-left tab:flex-row mobile:flex-col h-auto p-[10px] tab:p-[10px] mt-[20px] mobile:ml-[0px] rounded-[9px] gap-x-[10px] gap-y-[10px]"
+          >
+            <div
+              class="tab:w-[48%] flex flex-col mobile:w-full pl-[10px] text-[#282938]"
+            >
+              <h4 class="font-medium text-[16px]">Email me at</h4>
+              <p class="block">contact@website.com</p>
+            </div>
+            <div
+              class="tab:w-[43%] flex flex-col mobile:w-full pl-[10px] text-[#282938]"
+            >
+              <h4 class="font-medium text-[16px]">Call us</h4>
+              <p class="block">0927 6277 28525</p>
+            </div>
+          </div>
+        </div>
+        <div class="mobile:w-full tab:w-[40%] h-auto mx-auto text-[#fff]">
+          <h2 class="w-full pl-[20px] text-[28px] tab:mt-[50px] font-medium">
+            Lets Talk!
+          </h2>
+          <p class="max-w-[400px] w-full opacity-50 pl-[20px] text-[13px]">
+            We are always open to discuss your project, improve your online
+            presence and help with your UX/UI design challenges.
+          </p>
+          <div
+            class="flex flex-row flex-nowrap gap-x-[20px] pl-[20px] mt-[10px]"
+          >
+          <img src="./public/images/sm_twitter.png" alt="" />
+          <img src="./public/images/sm_insta.png" alt="" />
+          <img src="./public/images/sm_in.png" alt="" />
+          <img src="./public/images/sm_facebook.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full bg-[#fff] dark:bg-[#1C1E53] flex jestify-start text-[#282938] dark:text-[#fff]"
+      >
+        <nav
+          class="flex flex-row tab:gap-x-5 mobile:gap-x-3 w-full box-border justify-end pr-[20px] tab:leading-[28px] font-medium text-center"
+        >
+          <a
+            href="./index.html"
+            class="block h-7 w-fit items-center hover:border-b-2 hover:border-[#BBBBCB] tab:text-sm mobile:text-[13px]"
+            >Home</a
+          >
+          <a
+            href="./aboutus.html"
+            class="block h-7 min-w-fit hover:border-b-2 text-center tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >About us</a
+          >
+          <a
+            href="./features.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Features</a
+          >
+          <a
+            href="./pricing.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Pricing</a
+          >
+          <a
+            href="./FAQ.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >FAQ</a
+          >
+          <a
+            href="./blog.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Blog</a
+          >
+        </nav>
+      </div>
+      <!--end footer -->
+    </div>
+    <!-- darkmod -->
+    <button
+      class="btn w-[200px] text-[#fff] w-[80px] bg-[#454545] fixed top-80"
+    
+    > <img src="./public/images/dark mode button.png" alt="">
+
+    </button>
+
+    <!--end wrapper -->
+    <!--end project -->
+
+    <!--icon script  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- end icon script -->
+    <!-- menu script -->
+    <script>
+      const navLinks = document.querySelector(".nav-links");
+      function onToggleMenu(e) {
+        e.name = e.name === "menu" ? "close" : "menu";
+        navLinks.classList.toggle("top-[60px]");
+      }
+    </script>
+    <!--end menu script -->
+
+    <script>
+      let btn = document.querySelector(".btn");
+      btn.addEventListener("click", function () {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>

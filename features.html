@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Features</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+  </head>
+
+  <body>
+    <!--project -->
+    <!-- wrapper -->
+    <div class="overflow-hidden bg-[#fff] dark:bg-[#1C1E53] relative">
+      <!-- header -->
+      <header>
+        <nav
+          class="flex justify-items-stretch items-center w-full bg-[#1C1E53] dark:bg-[#101237] fixed top-0 z-40"
+        >
+          <div class="mx-4 mobile:w-[90%] tab:w-[80%]">
+            <img src="./public/images/Logo.png" alt="" />
+          </div>
+          <div
+            class="nav-links mobile:duration-500 tab:duration-0 mobile:fixed tab:static mobile:min-h-[30vh] tab:min-h-fit left-0 top-[-100%] mobile:bg-[#1C1E53] dark:mobile:bg-[#101237] mobile:bg-opacity-90 dark:mobile:bg-opacity-90 tab:bg-transparent mobile:w-full tab:w-auto flex py-2 justify-self-end pl-[20px]"
+          >
+            <ul
+              class="flex mobile:flex-col tab:flex-row w-full mobile:items-start tab:itemes-center tab:gap-2 mobile:gap-4 text-center"
+            >
+              <li>
+                <a
+                  href="./index.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-bold"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./aboutus.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 mobile:text-left tab:text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80 min-w-[88px]"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./features.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pricing.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./FAQ.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./blog.html"
+                  class="block ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300 text-center tab:py-3 px-2 hover:border-b-2 text-[14px] text-[#fff] hover:border-[#ffff] font-normal opacity-80"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contactUs.html"
+                  class="block tab:w-[130px] tab:ml-2 mobile:px-2 tab:py-3 tab:px-2 tab:border-2 tab:rounded-full text-[14px] text-[#fff] mobile:hover:border-b-2 ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-100 duration-300"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex p-4 justify-self-end">
+            <ion-icon
+              onclick="onToggleMenu(this)"
+              name="menu"
+              class="cursor-pointer text-3xl tab:hidden text-[#fff]"
+            ></ion-icon>
+          </div>
+        </nav>
+      </header>
+      <!-- end header -->
+      <!-- first-page -->
+      <div
+        class="w-full bg-[#1C1E53] pt-[62px] dark:bg-[#101237] flex flex-col h-fit pb-[40px] box-border"
+      >
+        <div
+          class="flex w-full mobile:flex-col-reverse mobile:gap-y-[50px] tab:flex-row tab:pt-[70px] mobile:pt-[20px] gap-x-[10px] content-center mx-auto mb-[30px]"
+        >
+          <div
+            class="tab:w-[60%] mobile:w-[100%] max-w-[500px] pl-[40px] flex tab:flex-col mobile:flex-row flex-wrap mx-auto"
+          >
+            <h1
+              class="tab:text-[40px] mobile:text-[30px] desk:text-[50px] max-w-[572px] pr-[15px] tab:mx-auto text-left text-[#ffff] tab:leading-[40px] desk:leading-[49px] mobile:leading-[30px] font-semibold"
+            >
+              All the features you need
+            </h1>
+            <p
+              class="text-left w-full text-[#ffff] tab:leading-[20px] mobile:leading-[10px] mobile:text-[8px] tab:text-[12px] desk:text-[14px] text-gray-500 font-normal mt-[14px] mb-[20px] pr-[10px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt. View our work View Pricing
+            </p>
+            <div class="flex flex-row gap-x-3">
+              <a
+                href="./pricing.html"
+                class="block tab:w-[140px] mobile:w-[100px] mobile:h-[40px] tab:h-[45px] text-center py-[12px] bg-[#FCD980] rounded-[41px] text-[#1B1C2B] tab:text-[13px] mobile:text-[8px]"
+                >View pricing</a
+              >
+            </div>
+          </div>
+          <div class="w-[40%] max-h-[361.12px] pr-[20px] mx-auto itemes-center">
+            <img
+              class="self-center mx-auto"
+              src="./public/images/f1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+          class="flex w-full tab:flex-row mobile:flex-col text-[#2b2b2b] p-[30px] mx-auto max-w-[1200px] dark:bg-[#FCD980] justify-center mt-[20px]"
+        >
+          <div class="w-fit mobile:pl-[10px]  flex flex-col mobile:mx-auto tab:mx-0">
+            <h5 class="font-bold opacity-80 dark:text-[#2b2b2b] text-[30px]">
+              100.000+
+            </h5>
+            <p
+              class="text-[12px] pl-[5px] font-semibold dark:text-[#2b2b2b] opacity-80"
+            >
+              Finsweet Users
+            </p>
+          </div>
+          <div class="flex mobile:flex-col w-full justify-center  tab:flex-row gap-[25px]">
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo1.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo2.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo3.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo4.png"
+                alt=""
+              />
+            </div>
+            <div class="w-[100px] pt-[20px] mobile:mx-auto tab:mx-0  ">
+              <img
+                class=" w-[90px]"
+                src="./public/images/logos/logo6.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      <!-- benefits -->
+      <div
+        class="f-full flex flex-col justify-center dark:text-[#fff] my-[50px]"
+      >
+        <h2
+          class="text-center w-full font-bold text-[34px] dark:text-[#fff] text-[#282938]"
+        >
+          The benefits of working with our team
+        </h2>
+        <div
+          class="flex w-full tab:flex-row mobile:flex-col mx-auto gap-[40px] max-w-[1200px] justify-center mt-[20px]"
+        >
+          <div
+            class="bg-[#ffff] dark:bg-[#101237] mx-auto flex flex-col gap-y-[10px] items-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 w-[350px] px-[20px] h-[300px] text-left bg-[#EEF4FA] text-[#1c1e53] dark:text-[#fff] py-[50px]"
+          >
+            <img
+              class="w-[32px]"
+              src="./public/images/icons/icon2.svg"
+              alt=""
+            />
+            <h4 class="text-[22px] font-medium">Customize Ease</h4>
+            <p class="text-[15px]">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+          <div
+            class="bg-[#ffff] dark:bg-[#101237] mx-auto flex flex-col gap-y-[10px] items-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 w-[350px] px-[20px] h-[300px] text-left bg-[#EEF4FA] text-[#1c1e53] dark:text-[#fff] py-[50px]"
+          >
+            <img
+              class="w-[32px]"
+              src="./public/images/icons/icon4.svg"
+              alt=""
+            />
+            <h4 class="text-[22px] font-medium">Perfectly Responsive</h4>
+            <p class="text-[15px]">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+          <div
+            class="bg-[#ffff] dark:bg-[#101237] mx-auto flex flex-col gap-y-[10px] items-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 w-[350px] px-[20px] h-[300px] text-left bg-[#EEF4FA] text-[#1c1e53] dark:text-[#fff] py-[50px]"
+          >
+            <img
+              class="w-[32px]"
+              src="./public/images/icons/icon5.svg"
+              alt=""
+            />
+            <h4 class="text-[22px] font-medium">friendly Support</h4>
+            <p class="text-[15px]">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ourmission ourvision -->
+      <div class="w-full max-w-[1200px] flex flex-col mx-auto">
+        <div
+          class="w-full flex mobile:flex-col mobile:gap-y-[20px] tab:flex-row my-[20px]"
+        >
+          <div
+            class="w-[60%] max-w-[400px] m-auto text-[#282938] dark:text-[#fff] h-full"
+          >
+            <h5 class="text-[15px] font-normal">Use Client-first</h5>
+            <h4 class="font-semibold leading-[35px] text-[25px]">
+              Top agencies and freelancers around the world use Client-first
+            </h4>
+            <p class="opacity-50 mt-[10px] text-[12px] leading-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="w-[40%] mx-auto min-w-[278px] max-w-[400px]">
+            <img src="./public/images/f3.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="w-full flex mobile:flex-col-reverse mobile:gap-y-[20px] bg-[#EEF4FA] dark:bg-[#1C1E53] tab:flex-row my-[20px]"
+        >
+          <div class="w-[40%] mx-auto min-w-[278px] max-w-[400px]">
+            <img src="./public/images/f4.jpg" alt="" />
+          </div>
+          <div
+            class="w-[60%] max-w-[400px] m-auto text-[#282938] dark:text-[#fff] h-full"
+          >
+            <h5 class="text-[15px] font-normal">Free Revision Rounds</h5>
+            <h4 class="font-semibold leading-[35px] text-[25px]">
+              Get free Revisions and one week of free maintenance
+            </h4>
+            <p class="opacity-50 mt-[10px] text-[12px] leading-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full flex mobile:flex-col mobile:gap-y-[20px] tab:flex-row my-[20px]"
+        >
+          <div
+            class="w-[60%] max-w-[400px] m-auto text-[#282938] dark:text-[#fff] h-full"
+          >
+            <h5 class="text-[15px] font-normal">24/7 Support</h5>
+            <h4 class="font-semibold leading-[35px] text-[25px]">
+              Working with us, you will be getting 24/7 priority support
+            </h4>
+            <p class="opacity-50 mt-[10px] text-[12px] leading-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="w-[40%] mx-auto min-w-[278px] max-w-[400px]">
+            <img src="./public/images/features/3.jpg" alt="" />
+          </div>
+        </div>
+        <div
+          class="w-full flex mobile:flex-col-reverse mobile:gap-y-[20px] bg-[#EEF4FA] dark:bg-[#1C1E53] tab:flex-row my-[20px]"
+        >
+          <div class="w-[40%] mx-auto min-w-[278px] max-w-[400px]">
+            <img src="./public/images/f5.jpg" alt="" />
+          </div>
+          <div
+            class="w-[60%] max-w-[400px] m-auto text-[#282938] dark:text-[#fff] h-full"
+          >
+            <h5 class="text-[15px] font-normal">Quick Delivery</h5>
+            <h4 class="font-semibold leading-[35px] text-[25px]">
+              Guranteed 1 week delivery for standard five pager website
+            </h4>
+            <p class="opacity-50 mt-[10px] text-[12px] leading-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- fAQ -->
+      <div
+        class="w-full flex mobile:flex-col overflow-hidden tab:flex-row bg-[#ffff] dark:bg-[#1C1E53] tab:itemes-center gap-x-[20px] mt-[50px] mb-[100px]"
+      >
+        <div class="w-[20%] m-[20px] gap-x-[15px] mx-auto min-w-[300px]">
+          <h3
+            class="text-[35px] mobile:w-full tab:w-fit text-[#282938] dark:text-[#fff] font-medium leading-[56px]"
+          >
+            Frequently asked questions
+          </h3>
+          <p class="text-[15px] mt-[20px] text-[#2405F2]">
+            Contact us for more info
+          </p>
+        </div>
+        <div
+          class="max-w-lg tab:mx-auto overflow-hidden flex flex-col gap-y-[5px]"
+        >
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >1</span
+              >How much time does it take?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >2</span
+              >What is your class naming convention?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >3</span
+              >How do you communicat?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >4</span
+              >I have a bigger project can you handel it?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-[#fff] text-[#2b2b2b] px-0">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div
+              class="collapse-title mobile:text-[14px] tab:text-[18px] font-medium"
+            >
+              <span
+                class="text-[20px] text-bold leading-[20px] mr-[10px] text-blue-500"
+                >5</span
+              >
+              What is your class naming convection?
+            </div>
+            <div class="collapse-content">
+              <p class="pr-[10px] mobile:text-[10px] tab:text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div
+        class="w-full flex h-auto flex-wrap mt-[30px] bg-[#1C1E53] dark:bg-[#101237] justify-center px-[30px] mb-[10px] pb-[30px]"
+      >
+        <div class="tab:w-[40%] mobile:w-full h-auto mx-auto p-5">
+          <div class="w-full mt-[40px]">
+            <img src="./public/images/Logo.png" alt="" />
+          </div>
+          <div class="w-full mt-[20px] text-[#fff] text-[15px]">
+            <p class="max-w-[380px] w-full">
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+          </div>
+          <div
+            class="w-[80%] mobile:w-auto mobile:max-w-[350px] tab:min-w-[400px] bg-[#FCD980] mx-auto flex justify-left text-left tab:flex-row mobile:flex-col h-auto p-[10px] tab:p-[10px] mt-[20px] mobile:ml-[0px] rounded-[9px] gap-x-[10px] gap-y-[10px]"
+          >
+            <div
+              class="tab:w-[48%] flex flex-col mobile:w-full pl-[10px] text-[#282938]"
+            >
+              <h4 class="font-medium text-[16px]">Email me at</h4>
+              <p class="block">contact@website.com</p>
+            </div>
+            <div
+              class="tab:w-[43%] flex flex-col mobile:w-full pl-[10px] text-[#282938]"
+            >
+              <h4 class="font-medium text-[16px]">Call us</h4>
+              <p class="block">0927 6277 28525</p>
+            </div>
+          </div>
+        </div>
+        <div class="mobile:w-full tab:w-[40%] h-auto mx-auto text-[#fff]">
+          <h2 class="w-full pl-[20px] text-[28px] tab:mt-[50px] font-medium">
+            Lets Talk!
+          </h2>
+          <p class="max-w-[400px] w-full opacity-50 pl-[20px] text-[13px]">
+            We are always open to discuss your project, improve your online
+            presence and help with your UX/UI design challenges.
+          </p>
+          <div
+            class="flex flex-row flex-nowrap gap-x-[20px] pl-[20px] mt-[10px]"
+          >
+            <img src="./public/images/sm_twitter.png" alt="" />
+            <img src="./public/images/sm_insta.png" alt="" />
+            <img src="./public/images/sm_in.png" alt="" />
+            <img src="./public/images/sm_facebook.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full bg-[#fff] dark:bg-[#1C1E53] flex jestify-start text-[#282938] dark:text-[#fff]"
+      >
+        <nav
+          class="flex flex-row tab:gap-x-5 mobile:gap-x-3 w-full box-border justify-end pr-[20px] tab:leading-[28px] font-medium text-center"
+        >
+          <a
+            href="./index.html"
+            class="block h-7 w-fit items-center hover:border-b-2 hover:border-[#BBBBCB] tab:text-sm mobile:text-[13px]"
+            >Home</a
+          >
+          <a
+            href="./aboutus.html"
+            class="block h-7 min-w-fit hover:border-b-2 text-center tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >About us</a
+          >
+          <a
+            href="./features.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Features</a
+          >
+          <a
+            href="./pricing.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Pricing</a
+          >
+          <a
+            href="./FAQ.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >FAQ</a
+          >
+          <a
+            href="./blog.html"
+            class="block h-7 hover:border-b-2 tab:text-sm mobile:text-[13px] hover:border-[#BBBBCB]"
+            >Blog</a
+          >
+        </nav>
+      </div>
+      <!--end footer -->
+    </div>
+    <!-- darkmod -->
+    <button
+      class="btn w-[200px] text-[#fff] w-[80px] bg-[#454545] fixed top-80"
+    
+    > <img src="./public/images/dark mode button.png" alt="">
+</button>
+
+    <!--end wrapper -->
+    <!--end project -->
+    <!--icon script  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    >
+    </script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    >
+    </script>
+    <!-- end icon script -->
+    <!-- menu script -->
+    <script>
+      const navLinks = document.querySelector(".nav-links");
+      function onToggleMenu(e) {
+        e.name = e.name === "menu" ? "close" : "menu";
+        navLinks.classList.toggle("top-[60px]");
+      }
+    </script>
+    <!--end menu script -->
+
+    <script>
+      let btn = document.querySelector(".btn");
+      btn.addEventListener("click", function () {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>
